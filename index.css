@@ -170,7 +170,7 @@ button a:hover {
 }
 
 #about {
-    padding-top: 4rem;
+    padding-top: 7rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -227,7 +227,7 @@ button a:hover {
 
 #services {
     font-size: 3rem;
-    padding-top: 4rem;
+    padding-top: 5rem;
     /* background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(wallpaperflare.com_wallpaper\ \(4\).jpg); */
     background-repeat: no-repeat;
     background-position: center;
@@ -311,7 +311,7 @@ fieldset:hover {
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0rem auto;
-    padding-top: 3rem;
+    padding-top: 5rem;
     border-radius:20px;
     /* border: 2px solid white; */
     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 80%, 0 100%);
@@ -358,6 +358,7 @@ fieldset:hover {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+   margin-top: 3rem;
 }
 
 #work {
