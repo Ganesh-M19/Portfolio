@@ -1,0 +1,750 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+nav {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(wallpaperflare.com_wallpaper\ \(3\).jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+    z-index: 10;
+
+}
+
+.info span,
+nav span,
+#services span,
+.work span {
+    color: rgb(25, 223, 25);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 0px 10px;
+}
+
+nav ul li a {
+    padding: 4px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+ul li .active{
+    color: rgb(25, 223, 25);
+}
+nav .logo:hover {
+    cursor: default;
+}
+
+nav .logo {
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+nav ul li :hover {
+    color: rgb(25, 223, 25);
+}
+
+i.fa,
+#click {
+    color: white;
+    display: none;
+    font-size: 1.2rem;
+}
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 50vh;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 9rem;
+    margin-left: 1rem;
+}
+
+.section div {
+    height: 490px;
+    width: 490px;
+    padding: .2rem;
+}
+
+.section h3:nth-of-type(1) {
+    margin-top: 5rem;
+    letter-spacing: .1rem;
+}
+
+.section div:nth-of-type(1) {
+    min-height: 400px
+}
+
+.section h1 {
+    font-size: 5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.section p,
+button {
+    margin-top: 1.5rem;
+    transition: all .8s ease;
+}
+
+button {
+    padding: 5px 8px;
+    background-color: rgb(25, 223, 25);
+    box-shadow: 3px 3px 0px white;
+    border: none;
+    transition: all .8s ease;
+    font-size: 1.1rem;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    padding: 3px 10px;
+    transition: all .8s ease;
+}
+
+button:hover {
+    background-color: white;
+    box-shadow: 3px 3px 0px rgb(25, 223, 25);
+    color: black;
+}
+
+button a:hover {
+    color: black;
+}
+
+.section img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+#btn {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+#btn input {
+    background-color: rgb(25, 223, 25);
+    padding: 5px 10px;
+    box-shadow: 2px 2px 1px white;
+    margin: 5px;
+    border: none;
+}
+
+#btn input:hover {
+    background-color: white;
+    box-shadow: 2px 2px 1px rgb(25, 223, 25);
+    color: black;
+}
+
+#about {
+    padding-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 100vh;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+        url(work2.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#about .imgbox,
+.aboutme {
+    width: 500px;
+    height: 580px;
+    margin: 15px;
+}
+
+.aboutme {
+    padding-top: 2rem;
+    width: 550px;
+}
+
+#about .imgbox img {
+    width: 93%;
+    height: 90%;
+  
+    background-color: transparent;
+}
+
+#about .aboutme h4 {
+    font-weight: normal;
+    font-size: 2rem;
+    letter-spacing: 8px;
+    margin-bottom: 1.5rem;
+}
+
+#about .aboutme h1 {
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+}
+
+#about .aboutme p {
+    margin-bottom: 1.5rem;
+}
+
+#about .aboutme button {
+    margin: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#services {
+    font-size: 3rem;
+    padding-top: 1rem;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(wallpaperflare.com_wallpaper\ \(4\).jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 4rem;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(wallpaperflare.com_wallpaper\ \(4\).jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 0rem;
+    padding-bottom: 5rem;
+}
+
+.main div {
+    width: 400px;
+    min-height: 300px;
+    margin: 1rem;
+}
+
+fieldset {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    padding: 10px;
+    transition: .8s;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-attachment: fixed;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+fieldset legend {
+    margin-left: 9rem;
+}
+
+fieldset:hover {
+    transform: translateY(-1rem);
+    /* transform: scale(1.1); */
+
+}
+
+.box1 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.box1 {
+    text-align: center;
+}
+
+.box1 h1 {
+    margin-bottom: .5rem;
+}
+
+.box1 p {
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+
+.imgbox2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 85vh;
+    width: 85%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+        url(wallpaperflare.com_wallpaper\ \(4\).jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0rem auto;
+    padding-top: 3rem;
+    border-radius:20px;
+    /* border: 2px solid white; */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 80%, 0 100%);
+    stroke: aliceblue;
+}
+
+.imgbox2 h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.imgbox2 p {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.imgbox2 button {
+    margin-left: 7rem;
+    font-size: 1rem;
+}
+
+.imgbox2 div {
+    width: 400px;
+    height: 170px;
+    margin-top: 3rem;
+}
+
+#preloder {
+    background: black url(circle.gif);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+#your_work {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+        url(work2.jpg); */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#work {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    padding-bottom: 2rem;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+
+}
+
+.work {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+#work div {
+    width: 390px;
+    height: 380px;
+    padding: 15px;
+    flex: 0 0 430px;
+
+}
+
+#work div:nth-of-type(1) {
+    margin-left: 65rem;
+
+}
+
+#work div img {
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    border-radius: 10px;
+}
+
+#your_work #btn1,
+#btn2 {
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: black;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    background-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+#your_work .button {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+
+
+}
+
+.imgbox3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    width: 85%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url(wallpaperflare.com_wallpaper\ \(4\).jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0rem auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-radius: 20px;
+
+}
+
+.contact_page {
+    width: 600px;
+    height: 600px;
+    padding: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55));
+    border-radius: 20px;
+}
+
+.contact_page h1 {
+    margin-bottom: 1rem;
+    font-weight: 300;
+    font-size: 2rem;
+    color: rgb(25, 223, 25);
+}
+
+.contact_page input,
+textarea,
+#contact_btn {
+    width: 100%;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+}
+
+.contact_page input,
+textarea {
+    padding: 10px;
+    font-size: .9rem;
+   background-color: transparent;
+   border: 1px solid white;
+}
+
+.contact_page input {
+    margin-bottom: 1rem;
+}
+
+#contact_btn {
+    padding: 5px 0px;
+    margin-top: 1rem;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 1rem;
+  width: 30%;
+background-color:  rgb(25, 223, 25);
+}
+
+#contact_btn:hover {
+    color: black;
+background-color: white;
+}
+
+
+@media (max-width:750px) {
+    nav {
+        border: 1px solid rgb(25, 223, 25);
+
+    }
+
+    nav ul {
+        top: 60px;
+        left: -100%;
+        height: 300px;
+        width: 30%;
+        /* border: 1px solid rgb(25, 223, 25); */
+        background: linear-gradient(rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.90)), url(wallpaperflare.com_wallpaper\ \(4\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        transition: 2s;
+        z-index: -1;
+    }
+
+    nav ul li :hover {
+        color: rgb(25, 223, 25);
+    }
+
+    nav ul li {
+        padding: 1px 0px;
+        width: 20%;
+        margin: 1rem auto;
+        border-radius: 25px;
+    }
+
+
+    #click:checked~ul {
+        left: 0;
+    }
+
+    i.fa {
+        display: block;
+    }
+
+    i.fa:hover {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media(max-width:1330px) {
+    .section div {
+        height: 400px;
+        width: 400px;
+    }
+
+    .section h1 {
+        font-size: 4rem;
+    }
+
+    .section p,
+    .about p {
+        font-size: .8rem;
+    }
+}
+
+@media(max-width:1000px) {
+    .section div {
+        height: 350px;
+        width: 350px;
+    }
+
+    .section h1 {
+        font-size: 3rem;
+    }
+
+    .imgbox2 div {
+        width: 350px;
+    }
+
+    .imgbox2 div h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width:1080px) {
+
+    .imgbox,
+    .aboutme {
+        width: 450px;
+        height: 500px;
+        padding-top: 4rem;
+    }
+
+    #btn input {
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width:1010px) {
+
+    .imgbox,
+    .aboutme {
+        width: 400px;
+        height: 400px;
+        padding-top: 0rem;
+    }
+}
+
+@media(max-width:960px) {
+
+    .imgbox,
+    .aboutme {
+        width: 350px;
+        height: 350px;
+        padding-top: 0rem;
+    }
+}
+
+@media(max-width:910px) {
+
+    .imgbox,
+    .aboutme {
+        width: 500px;
+        height: 500px;
+        padding-top: 0rem;
+    }
+
+}
+
+@media(max-width:720px) {
+    .section {
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .logo {
+        margin-left: -30px;
+    }
+
+    i.fa {
+        margin-right: -100px;
+    }
+}
+
+@media(max-width:1461px) {
+    #work div:nth-of-type(1) {
+        margin-left: 75rem;
+    }
+}
+
+@media(max-width:1367px) {
+    #work div:nth-of-type(1) {
+        margin-left: 80rem;
+    }
+}
+
+@media(max-width:1291px) {
+    #work div:nth-of-type(1) {
+        margin-left: 85rem;
+    }
+}
+
+@media(max-width:1209px) {
+    #work div:nth-of-type(1) {
+        margin-left: 90rem;
+    }
+}
+
+@media(max-width:1125px) {
+    #work div:nth-of-type(1) {
+        margin-left: 95rem;
+    }
+}
+
+@media(max-width:1050px) {
+    #work div:nth-of-type(1) {
+        margin-left: 100rem;
+    }
+}
+
+@media(max-width:961px) {
+    #work div:nth-of-type(1) {
+        margin-left: 105rem;
+    }
+}
+
+@media(max-width:885px) {
+    #work div:nth-of-type(1) {
+        margin-left: 110rem;
+    }
+    
+}
+
+@media(max-width:801px) {
+    #work div:nth-of-type(1) {
+        margin-left: 115rem;
+    }
+}
+
+@media(max-width:731px) {
+    #work div:nth-of-type(1) {
+        margin-left: 120rem;
+    }
+}
+
+@media(max-width:650px) {
+    #work div:nth-of-type(1) {
+        margin-left: 125rem;
+    }
+}
+
+@media(max-width:563px) {
+    #work div:nth-of-type(1) {
+        margin-left: 130rem;
+    }
+
+    #about .imgbox {
+        height: 317px;
+        width: 280px;
+    }
+}
+
+@media(max-width:489px) {
+    #work div:nth-of-type(1) {
+        margin-left: 135rem;
+    }
+
+    #work .box {
+        width: 280px;
+        height: 390px;
+    }
+
+}
+@media(max-width:447px) {
+  
+
+    #work .box2 {
+        width: 250px;
+        height: 430px;
+    }
+
+    #work .box2 img{
+       width: 95%;
+    }
+
+}
+
+@media(max-width:411px) {
+    #work div:nth-of-type(1) {
+        margin-left: 138rem;
+        /* width: 100px; */
+    }
+    #work .box2 img{
+        width: 85%;
+     }
+
+}
