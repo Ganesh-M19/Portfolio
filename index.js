@@ -79,3 +79,29 @@ function active_class() {
 }
 active_class()
 
+/*...............JQuery.....................*/
+$(function () {
+    $(".fa-bars").click(function () {
+        $(".li").slideToggle("slow")
+    })
+
+    $("#home").click(function () {
+        $(".li").fadeToggle("fast", "linear")
+
+    })
+    $("#ab").click(function () {
+        $(".li").fadeToggle("fast", "linear")
+
+    })
+    $("#serv").click(function () {
+        $(".li").fadeToggle("fast", "linear")
+
+    })
+    $("#skills").click(function () {
+        $(".li").fadeToggle("fast", "linear")
+
+    })
+    $("#cont").click(function () {
+        $(".li").fadeToggle("fast", "linear")
+    })
+})
