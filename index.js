@@ -85,23 +85,23 @@ $(function () {
         $(".li").slideToggle("slow")
     })
 
-    $("#home").click(function () {
-        $(".li").fadeToggle("fast", "linear")
+//     $("#home").click(function () {
+//         $(".li").fadeToggle("fast", "linear")
 
-    })
-    $("#ab").click(function () {
-        $(".li").fadeToggle("fast", "linear")
+//     })
+//     $("#ab").click(function () {
+//         $(".li").fadeToggle("fast", "linear")
 
-    })
-    $("#serv").click(function () {
-        $(".li").fadeToggle("fast", "linear")
+//     })
+//     $("#serv").click(function () {
+//         $(".li").fadeToggle("fast", "linear")
 
-    })
-    $("#skills").click(function () {
-        $(".li").fadeToggle("fast", "linear")
+//     })
+//     $("#skills").click(function () {
+//         $(".li").fadeToggle("fast", "linear")
 
-    })
-    $("#cont").click(function () {
-        $(".li").fadeToggle("fast", "linear")
+//     })
+//     $("#cont").click(function () {
+//         $(".li").fadeToggle("fast", "linear")
     })
 })
