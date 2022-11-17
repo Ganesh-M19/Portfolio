@@ -523,13 +523,9 @@ transform: translateY(-.7rem);
  
     nav ul {
         top: 60px;
-        left: -100%;
+        left: 0%;
         height: 250px;
         width: 30%;
-        /* border: 1px solid rgb(25, 223, 25); */
-        background: linear-gradient(rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.90)), url(wallpaperflare.com_wallpaper\ \(4\).jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
         display: block;
         text-align: center;
         position: fixed;
@@ -543,16 +539,22 @@ transform: translateY(-.7rem);
     } */
 
     nav ul li {
-        padding: 1px 0px;
+        padding: 15px 0px;
         width: 20%;
-        margin: 1rem auto;
+        margin: 0rem auto;
         border-radius: 25px;
     }
-
-
-    #click:checked~ul {
-        left: 0;
+    
+  .li{
+        background-position: center;
+        background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url(wallpaperflare.com_wallpaper\ \(4\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
+
+/*     #click:checked~ul {
+        left: 0;
+    } */
 
     i.fa {
         display: block;
